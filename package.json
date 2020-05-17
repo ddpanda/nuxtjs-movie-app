@@ -1,0 +1,21 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "My grand Nuxt.js project",
+  "author": "Sarkhan Rajabov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "nuxt": "^2.0.0",
+    "vue-slick-carousel": "^1.0.5",
+    "vue-social-sharing": "^2.4.7"
+  },
+  "devDependencies": {}
+}
